@@ -1,6 +1,6 @@
 const express =require('express')
 const mongoose=require('mongoose')
-const courserouter=require('./Router/courserouter')
+const courserouter=require('./src/Router/courserouter')
 
 const app=express()
 app.use(courserouter)
